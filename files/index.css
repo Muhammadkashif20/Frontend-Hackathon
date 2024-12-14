@@ -10,6 +10,30 @@ header {
     background-color: #5f4bb6;
     color: #fff;
     padding: 10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.icons {
+    display: flex; /* Align icons horizontally */
+    gap: 15px; /* Space between icons */
+    justify-content: center; /* Center align icons */
+    align-items: center; /* Align vertically */
+}
+
+.icons a {
+    color: white; /* Default icon color */
+    font-size: 24px; /* Icon size */
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s, color 0.3s ease; /* Smooth animation */
+}
+
+.icons a:hover {
+    color: #ff6347; /* Change color on hover */
+    transform: scale(1.2); /* Slight zoom effect on hover */
+}
+.reservedText{
+    text-align: center;
+    font-weight: 600;
+    font-size: medium;
 }
 
 nav {
