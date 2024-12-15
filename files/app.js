@@ -1,4 +1,4 @@
-  let postImage=document.getElementById('postImage');
+let postImage=document.getElementById('postImage');
   let postName=document.getElementById('postName');
   let postText=document.getElementById('postTitle');
   let postDescribe=document.getElementById('postDescribe');
